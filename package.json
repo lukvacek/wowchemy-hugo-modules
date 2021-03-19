@@ -5,12 +5,12 @@
   "author": "George Cushen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wowchemy/wowchemy-hugo-modules/issues"
+    "url": "https://github.com/lukvacek/wowchemy-hugo-modules/issues"
   },
   "homepage": "https://wowchemy.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wowchemy/wowchemy-hugo-modules.git"
+    "url": "git+https://github.com/lukvacek/wowchemy-hugo-modules.git"
   },
   "main": "index.js",
   "dependencies": {
