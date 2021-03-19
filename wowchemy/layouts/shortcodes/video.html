@@ -24,6 +24,6 @@
   {{ $poster = "" }}
 {{ end }}
 
-<video {{if (.Get "controls")}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}"{{end}}>
+<video {{if (.Get "controls")}}controls{{else}}autoplay loop playsinline{{end}} {{with $poster}}poster="{{.}}"{{end}}>
   <source src="{{ $video }}" type="video/{{$video_type}}">
 </video>
